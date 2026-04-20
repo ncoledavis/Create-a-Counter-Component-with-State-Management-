@@ -1,0 +1,29 @@
+{
+  "name": "react-counter",
+  "version": "1.0.0",
+  "description": "A React counter desktop app",
+  "author": "Cole Davis",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "electron": "^41.2.1",
+    "electron-builder": "^26.8.1",
+    "vite": "^8.0.9"
+  },
+  "build": {
+    "appId": "com.counter.demo",
+    "productName": "React Counter",
+    "mac": {
+      "target": "dmg"
+    }
+  }
+}
