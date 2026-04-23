@@ -6,7 +6,7 @@
 
 ## Overview
 This is a simple React based counter that is meant to teach how the increment system works in react and how to plan your code returns and buttons not to miss certain entries or cause conflicting issues.
-
+YouTube Link: https://youtu.be/WUBy9ERBgbs
 ---
 
 ## Buttons
@@ -62,7 +62,7 @@ Each update receives the newest state value.
 
 ** Final Result:** Count increases by **2**.
 
-## ▶️ Run the Project
+##  Run the Project
 ```bash
 npm install
 npm run dev
